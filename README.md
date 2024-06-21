@@ -21,9 +21,11 @@ This project is a responsive single-page application (SPA) built with React. It 
    cd dynamic-dashboard
 
 2. Install dependencies:
+   ```sh
    npm install
 
 3. Run the application:
+   ```sh
    npm start
 
 ## Testing
@@ -32,25 +34,26 @@ Run the tests using:
    npm test
 
 ## Design Choices
-   React: Chosen for its component-based architecture and strong community support.
-   Material-UI: Provides a set of accessible and responsive UI components.
-   Recharts: Simple and flexible library for creating charts.
-   React Context: Manages application state effectively.
-   React Router: Facilitates client-side routing.
-   Axios: Simplifies HTTP requests.
+
+   - React: Chosen for its component-based architecture and strong community support.
+   - Material-UI: Provides a set of accessible and responsive UI components.
+   - Recharts: Simple and flexible library for creating charts.
+   - React Context: Manages application state effectively.
+   - React Router: Facilitates client-side routing.
+   - Axios: Simplifies HTTP requests.
 
 ## Assumptions
 
-   Data fetched from https://jsonplaceholder.typicode.com/posts for initial population.
-   Newly added data is stored in the local state.
+   - Data fetched from https://jsonplaceholder.typicode.com/posts for initial population.
+   - Newly added data is stored in the local state.
 
 ## Special Considerations
 
-   Ensured responsiveness using Material-UI's Grid and Flexbox.
-   Added basic form validation for data entry.
+   - Ensured responsiveness using Material-UI's Grid and Flexbox.
+   - Added basic form validation for data entry.
 
 ## Future Improvements
 
-   Integrate a backend to persist data.
-   Enhance form validation with more comprehensive rules.
-   Add more visualizations and data filtering options.
+   - Integrate a backend to persist data.
+   - Enhance form validation with more comprehensive rules.
+   - Add more visualizations and data filtering options.
