@@ -30,7 +30,8 @@ This project is a responsive single-page application (SPA) built with React. It 
 
 ## Testing
 
-Run the tests using:
+3. Run the tests using:
+   ```sh
    npm test
 
 ## Design Choices
