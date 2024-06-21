@@ -17,7 +17,7 @@ This project is a responsive single-page application (SPA) built with React. It 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/mauriciocentenaro/dynamic-dashboard.git
+   git clone https://github.com/mauriciocentenaro/challenge-dynamic-dashboard.git
    cd dynamic-dashboard
 
 2. Install dependencies:
@@ -30,7 +30,7 @@ This project is a responsive single-page application (SPA) built with React. It 
 
 ## Testing
 
-3. Run the tests using:
+Run the tests using:
    ```sh
    npm test
 
